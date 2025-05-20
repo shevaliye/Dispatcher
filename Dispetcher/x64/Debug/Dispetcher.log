@@ -1,3 +1,1 @@
-﻿  main.cpp
-C:\Users\Egor2\source\repos\Dispetcher\Dispetcher\main.cpp(23,22): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Dispetcher.vcxproj -> C:\Users\Egor2\source\repos\Dispetcher\x64\Debug\Dispetcher.exe
+﻿  Dispetcher.vcxproj -> C:\Users\Egor2\source\repos\Dispetcher\x64\Debug\Dispetcher.exe

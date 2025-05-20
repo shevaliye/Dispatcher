@@ -2,13 +2,15 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
-#define max_capacity 15
+#define MAX_CAPACITY 15
+#define NUMBER_OF_RESOURCES 2
+#define NUMBER_OF_PROCCESSES 4
 using namespace std;
 bool checker(vector<vector<int>>& table, vector<int>& resources)
 {
-	for (int i = 0; i < 4; i++)
+	for (int i = 0; i < NUMBER_OF_PROCCESSES; i++)
 	{
-		for (int x = 0; x < resources.size(); x++)
+		for (int x = 0; x < NUMBER_OF_RESOURCES; x++)
 		{
 			if (table[i][x] > 0 && resources[x] >= table[i][x])
 			{
@@ -22,111 +24,109 @@ int main()
 {	
 	std::srand(std::time(0));
 	vector<int> resources;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < NUMBER_OF_RESOURCES; i++)
 	{
-		int res = std::rand() % max_capacity + 1;
+		int res = std::rand() % MAX_CAPACITY + 1;
 		resources.push_back(res);
 	}
-	//int resource_1 = std::rand() % max_capacity + 1;
-	//int resource_2 = std::rand() % max_capacity + 1;
-	vector<vector<int>> base_table(4, vector<int>(2,0));
-	for (int i = 0; i < 4; i++)
+
+	vector<vector<int>> base_table(NUMBER_OF_PROCCESSES, vector<int>(NUMBER_OF_RESOURCES,0));
+	for (int i = 0; i < NUMBER_OF_PROCCESSES; i++)
 	{
-		int res_1 = std::rand() % resources[0] + 1;
-		int res_2 = std::rand() % resources[1] + 1;
-		base_table[i][0] = res_1;
-		base_table[i][1] = res_2;
-	}
-	for (int i = 0; i < 2; i++)
-	{
-		cout << "res_" << i + 1<< endl;
-		for (int x = 0; x < 4; x++)
+		for (int x = 0; x < NUMBER_OF_RESOURCES; x++)
 		{
-			cout << "proccess_" << x + 1 << " " << base_table[x][i] << endl;
+			int res = std::rand() % resources[x] + 1;
+			base_table[i][x] = res;
 		}
+	}
+
+	for (int i = 0; i < NUMBER_OF_PROCCESSES; i++)
+	{
+		cout << "proccess_" << i + 1;
+		for (int x = 0; x < NUMBER_OF_RESOURCES; x++)
+		{
+			if (base_table[i][x] < 0)
+			{
+				cout << " 0 ";
+				continue;
+			}
+			cout <<" "<<base_table[i][x];
+		}
+		cout << endl;
 	}
 	
 	bool answer;
 	int counter = 0;
 	while (true)
 	{
-		int require_process = std::rand() % 4 + 1;
-		int require_res = std::rand() % 2 + 1;
-		if (base_table[require_process - 1][require_res - 1] <= 0) continue;
-		cout << resources[0] << " " << resources[1] << endl;
+		int require_process = std::rand() % NUMBER_OF_PROCCESSES + 1;
+		int require_res = std::rand() % NUMBER_OF_RESOURCES + 1;
+		if (base_table[require_process - 1][require_res - 1] < 0) continue;
+		for (int i = 0; i < NUMBER_OF_RESOURCES; i++)
+		{
+			cout << resources[i] << " ";
+		}
+		cout << endl;
 		cout << "process " << require_process << " requires " << base_table[require_process - 1][require_res - 1] << " res_" << require_res << endl;
 		cout << "Answer: ";
 		cin >> answer;
 		system("cls");
 		if (answer)
 		{
-			if (require_res - 1 == 1)
+			if (resources[require_res - 1] >= base_table[require_process - 1][require_res - 1])
 			{
-				if (resources[1] >= base_table[require_process - 1][require_res - 1])
+				resources[require_res - 1] -= base_table[require_process - 1][require_res - 1];
+				base_table[require_process - 1][require_res - 1] *= -1;
+				bool flag = true;
+				for (int i = 0; i < NUMBER_OF_RESOURCES; i++)
 				{
-					resources[1] -= base_table[require_process - 1][require_res - 1];
-					base_table[require_process - 1][require_res - 1] *= -1;
-					if (base_table[require_process - 1][0] < 0)
+					if (base_table[require_process - 1][i] > 0)
 					{
-						resources[0] -= base_table[require_process - 1][0];
-						resources[1] -= base_table[require_process - 1][require_res - 1];
-						base_table[require_process - 1][0] = 0;
-						base_table[require_process - 1][1] = 0;
-						counter += 1;
+						flag = false;
+						break;
 					}
 				}
-				else
+				if (flag)
 				{
-					cout << "You can't do this" << endl;
+					for (int i = 0; i < NUMBER_OF_RESOURCES; i++)
+					{
+						resources[i] -= base_table[require_process - 1][i];
+					}
+					counter++;
 				}
 			}
 			else
 			{
-				if (resources[0] >= base_table[require_process - 1][require_res - 1])
-				{
-					resources[0] -= base_table[require_process - 1][require_res - 1];
-					base_table[require_process - 1][require_res - 1] *= -1;
-					if (base_table[require_process - 1][1] < 0)
-					{
-						resources[1] -= base_table[require_process - 1][1];
-						resources[0] -= base_table[require_process - 1][require_res - 1];
-						base_table[require_process - 1][0] = 0;
-						base_table[require_process - 1][1] = 0;
-						counter += 1;
-					}
-				}
-				else
-				{
-					cout << "You can't do this" << endl;
-				}
+				cout << "You can't do this" << endl;
 			}
 		}
-		if (counter == 4)
+		if (counter == NUMBER_OF_PROCCESSES)
 		{
 			system("cls");
 			cout << "You win";
 			break;
 		}
 
-		if (checker(base_table, resources) == false)
+		if (!checker(base_table, resources))
 		{
 			system("cls");
 			cout << "You lose";
 			break;
 		}
 		
-		for (int i = 0; i < 2; i++)
+		for (int i = 0; i < NUMBER_OF_PROCCESSES; i++)
 		{
-			cout << "res_" << i + 1 << endl;
-			for (int x = 0; x < 4; x++)
+			cout << "proccess_" << i + 1;
+			for (int x = 0; x < NUMBER_OF_RESOURCES; x++)
 			{
-				if (base_table[x][i] < 0)
+				if (base_table[i][x] < 0)
 				{
-					cout << "proccess_" << x + 1 << " " << 0 << endl;
+					cout << " 0";
 					continue;
 				}
-				cout << "proccess_" << x + 1 << " " << base_table[x][i] << endl;
+				cout << " " << base_table[i][x];
 			}
+			cout << endl;
 		}
 
 	}
