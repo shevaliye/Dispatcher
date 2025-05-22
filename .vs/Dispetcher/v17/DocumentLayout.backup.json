@@ -1,17 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\helraze\\source\\repos\\Dispatcher\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|C:\\Users\\helraze\\source\\repos\\Dispatcher\\Dispetcher\\level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|solutionrelative:Dispetcher\\table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|solutionrelative:Dispetcher\\level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|C:\\Users\\helraze\\source\\repos\\Dispatcher\\Dispetcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|solutionrelative:Dispetcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|C:\\Users\\helraze\\source\\repos\\Dispatcher\\Dispetcher\\level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1D52CD01-A781-4F3E-9D9E-68A8E4523EF0}|Dispetcher\\Dispetcher.vcxproj|solutionrelative:Dispetcher\\level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -22,66 +29,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\helraze\\source\\repos\\Dispatcher\\Dispetcher\\main.cpp",
-              "RelativeDocumentMoniker": "Dispetcher\\main.cpp",
-              "ToolTip": "C:\\Users\\helraze\\source\\repos\\Dispatcher\\Dispetcher\\main.cpp",
-              "RelativeToolTip": "Dispetcher\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-19T17:15:17.277Z",
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "ViewState": "AgIAAFIHAAAAAAAAAIAwwF8HAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-22T21:16:53.053Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "level.h",
-              "DocumentMoniker": "C:\\Users\\helraze\\source\\repos\\Dispatcher\\Dispetcher\\level.h",
-              "RelativeDocumentMoniker": "Dispetcher\\level.h",
-              "ToolTip": "C:\\Users\\helraze\\source\\repos\\Dispatcher\\Dispetcher\\level.h",
-              "RelativeToolTip": "Dispetcher\\level.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAC1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-20T13:26:17.543Z",
-              "EditorCaption": ""
+              "Title": "level.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\level.cpp",
+              "RelativeDocumentMoniker": "Dispetcher\\level.cpp",
+              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\level.cpp",
+              "RelativeToolTip": "Dispetcher\\level.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwLYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-20T13:25:07.431Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "level.cpp",
-              "DocumentMoniker": "C:\\Users\\helraze\\source\\repos\\Dispatcher\\Dispetcher\\level.cpp",
-              "RelativeDocumentMoniker": "Dispetcher\\level.cpp",
-              "ToolTip": "C:\\Users\\helraze\\source\\repos\\Dispatcher\\Dispetcher\\level.cpp",
-              "RelativeToolTip": "Dispetcher\\level.cpp",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwEgAAAABAAAAAAAAAA==",
+              "Title": "table.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\table.cpp",
+              "RelativeDocumentMoniker": "Dispetcher\\table.cpp",
+              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\table.cpp",
+              "RelativeToolTip": "Dispetcher\\table.cpp",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAH8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-20T13:25:07.431Z",
+              "WhenOpened": "2025-05-22T15:35:49.007Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "level.h",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\level.h",
+              "RelativeDocumentMoniker": "Dispetcher\\level.h",
+              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\level.h",
+              "RelativeToolTip": "Dispetcher\\level.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-20T13:26:17.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\main.cpp",
+              "RelativeDocumentMoniker": "Dispetcher\\main.cpp",
+              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Dispatcher\\Dispetcher\\main.cpp",
+              "RelativeToolTip": "Dispetcher\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-19T17:15:17.277Z"
             }
           ]
         }

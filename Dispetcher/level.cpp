@@ -17,13 +17,13 @@ bool checker(vector<vector<int>>& table, vector<int>& resources) {
     return false;
 }
 
-void save_game(const string& filename, int MAX_CAPACITY, int NUMBER_OF_RESOURCES, int NUMBER_OF_PROCCESSES, int counter, const vector<int>& resources, const vector<vector<int>>& base_table) {
+void save_game(const string& filename, int MAX_CAPACITY, int NUMBER_OF_RESOURCES, int NUMBER_OF_PROCESSES, int counter, const vector<int>& resources, const vector<vector<int>>& base_table) {
     ofstream file(filename);
     if (!file.is_open()) {
         cerr << "Failed to save game." << endl;
         return;
     }
-    file << MAX_CAPACITY << " " << NUMBER_OF_RESOURCES << " " << NUMBER_OF_PROCCESSES << " " << counter << endl;
+    file << MAX_CAPACITY << " " << NUMBER_OF_RESOURCES << " " << NUMBER_OF_PROCESSES << " " << counter << endl;
     for (int res : resources) {
         file << res << " ";
     }
@@ -187,6 +187,7 @@ void level(int MAX_CAPACITY, int NUMBER_OF_RESOURCES, int NUMBER_OF_PROCESSES) {
         // Проверка условий победы/поражения
         if (counter == NUM_PROC) {
             cout << "You win!\n";
+            level(++MAX_CAPACITY, ++NUMBER_OF_RESOURCES, ++NUMBER_OF_PROCESSES);
             break;
         }
         if (!checker(base_table, resources)) {
