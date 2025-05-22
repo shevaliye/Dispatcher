@@ -1,5 +1,5 @@
 ﻿  level.cpp
-C:\Users\Egor2\source\repos\Dispetcher\Dispetcher\level.cpp(26,22): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\helraze\source\repos\Dispatcher\Dispetcher\level.cpp(97,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   main.cpp
   Создание кода...
-  Dispetcher.vcxproj -> C:\Users\Egor2\source\repos\Dispetcher\x64\Debug\Dispetcher.exe
+  Dispetcher.vcxproj -> C:\Users\helraze\source\repos\Dispatcher\x64\Debug\Dispetcher.exe
